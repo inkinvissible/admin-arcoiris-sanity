@@ -39,5 +39,14 @@ export default defineType({
       type: 'boolean',
       initialValue: false,
     },
+    {
+      name: 'validUntil',
+      title: 'Válida hasta',
+      type: 'datetime',
+      description: 'Fecha de expiración de la oferta',
+      validation: (Rule) =>
+        Rule.required().min(new Date().toISOString().split('T')[0])
+          .error('La fecha de expiración debe ser futura'),
+    }
   ],
 })
