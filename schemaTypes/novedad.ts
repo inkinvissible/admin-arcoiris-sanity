@@ -19,6 +19,14 @@ export default defineType({
       validation: (Rule) => Rule.required(),
     },
     {
+      name: 'descriptionLong',
+      title: 'Descripción Detallada',
+      type: 'text',
+      rows: 8,
+      description: 'Descripción más extensa de la novedad que aparecerá en el pop-up',
+      validation: (Rule) => Rule.required(),
+    },
+    {
       name: 'image',
       title: 'Imagen',
       type: 'image',
