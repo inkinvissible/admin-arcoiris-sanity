@@ -1,9 +1,18 @@
-# Sanity Clean Content Studio
+# Sanity Studio – Arcoíris Travel
 
-Congratulations, you have now installed the Sanity Content Studio, an open-source real-time content editing environment connected to the Sanity backend.
+Panel de administración de contenidos basado en Sanity.
 
-Now you can do the following things:
+## Alcance de la entrega
+Este proyecto contiene únicamente el código del Sanity Studio.
+Los datos de contenido se alojan en la infraestructura de Sanity y no forman parte del código.
 
-- [Read “getting started” in the docs](https://www.sanity.io/docs/introduction/getting-started?utm_source=readme)
-- [Join the community Slack](https://slack.sanity.io/?utm_source=readme)
-- [Extend and build plugins](https://www.sanity.io/docs/content-studio/extending?utm_source=readme)
+## Acceso a contenidos
+El acceso al proyecto y al dataset depende de la cuenta administradora de Sanity.
+Los contenidos permanecen disponibles independientemente del hosting del Studio.
+
+## Configuración
+El Studio puede desplegarse en cualquier infraestructura compatible o ejecutarse en local.
+Las credenciales y tokens deben generarse desde la cuenta de Sanity correspondiente.
+
+## Estado
+El proyecto se entrega tal como está, sin soporte ni mantenimiento asociado.
