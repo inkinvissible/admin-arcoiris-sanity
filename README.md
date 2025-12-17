@@ -1,4 +1,4 @@
-# Sanity Studio – Arcoíris Travel
+# Sanity Studio – Código Fuente Arcoíris Travel
 
 Panel de administración de contenidos basado en Sanity.
 
@@ -31,3 +31,7 @@ Herramientas de Desarrollo
 TypeScript 5.8
 ESLint 9.28 con @sanity/eslint-config-studio
 Prettier 3.5
+
+> Nota: Este proyecto se entrega únicamente como código fuente.  
+> No incluye acceso a hosting, dominios, cuentas de servicios externos, tokens ni credenciales.  
+> La gestión de despliegue, administración y mantenimiento debe realizarse en cuentas propias.
