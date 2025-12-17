@@ -16,3 +16,18 @@ Las credenciales y tokens deben generarse desde la cuenta de Sanity correspondie
 
 ## Estado
 El proyecto se entrega tal como está, sin soporte ni mantenimiento asociado.
+
+## Integraciones
+CMS
+Sanity 3.93.0 - Plataforma de CMS headless
+@sanity/vision (^3.93.0) - Herramienta de consulta GROQ
+@sanity/locale-es-es (^1.2.23) - Localización en español
+
+Framework UI
+React 19.1
+styled-components (^6.1.18) - CSS-in-JS
+
+Herramientas de Desarrollo
+TypeScript 5.8
+ESLint 9.28 con @sanity/eslint-config-studio
+Prettier 3.5
